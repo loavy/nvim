@@ -1,4 +1,4 @@
-# PinkMath Neovim Config
+# Loavy Neovim Config
 
 A minimal fullstack Neovim configuration focused on speed, clean visuals, and practical coding tools.
 
