@@ -179,9 +179,10 @@ If you're on Windows make sure to have these first:
 - Node
 - fzf
 - zig
+- Go
 
 ```bash
-winget install Neovim.Neovim Git.Git OpenJS.NodeJS.LTS junegunn.fzf zig.zig
+winget install Neovim.Neovim Git.Git OpenJS.NodeJS.LTS junegunn.fzf zig.zig GoLang.Go
 ```
 
 Backup your current Neovim config first:
