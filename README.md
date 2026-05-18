@@ -173,6 +173,17 @@ Optional, depending on the languages you use:
 
 ## Installation
 
+If you're on Windows make sure to have these first:
+- Neovim
+- Git
+- Node
+- fzf
+- zig
+
+```bash
+winget install Neovim.Neovim Git.Git OpenJS.NodeJS.LTS junegunn.fzf zig.zig
+```
+
 Backup your current Neovim config first:
 
 ```bash
@@ -235,6 +246,11 @@ bash-language-server
 dockerfile-language-server
 docker-compose-language-service
 yaml-language-server
+```
+
+Faster way:
+```bash
+:MasonInstall lua-language-server typescript-language-server html-lsp css-lsp tailwindcss-language-server emmet-language-server json-lsp pyright gopls rust-analyzer intelephense bash-language-server dockerfile-language-server docker-compose-language-service yaml-language-server
 ```
 
 After installing them, restart Neovim and run:
