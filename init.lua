@@ -48,8 +48,9 @@ Plug("hrsh7th/cmp-nvim-lsp")
 Plug("hrsh7th/cmp-buffer")
 Plug("hrsh7th/cmp-path")
 
--- Theme
+-- Theme | Color preview
 Plug("rebelot/kanagawa.nvim")
+Plug("brenoprata10/nvim-highlight-colors")
 
 vim.call("plug#end")
 
@@ -62,5 +63,6 @@ require("plugins.treesitter")
 require("plugins.gitsigns")
 require("plugins.harpoon")
 require("plugins.lsp")
+require("plugins.highlightcolors")
 
 vim.cmd("colorscheme kanagawa")

@@ -91,6 +91,20 @@ Keymaps:
 | `<leader>n` | Next Harpoon file |
 | `<leader>p` | Previous Harpoon file |
 
+### Color Preview
+
+Powered by `nvim-highlight-colors`.
+
+Supports:
+
+- Hex colors like `#ffffff`
+- Short hex like `#fff`
+- RGB / HSL colors
+- CSS named colors like `blue`, `red`, `white`
+- Tailwind classes like `bg-blue-500`
+
+Colors are rendered with background highlighting.
+
 ### LSP
 
 Uses the modern Neovim `vim.lsp.config()` and `vim.lsp.enable()` style for Neovim 0.11+.
@@ -301,6 +315,7 @@ After installing them, restart Neovim and run:
 | `cmp-buffer` | Buffer completion source |
 | `cmp-path` | Path completion source |
 | `kanagawa.nvim` | Colorscheme |
+| `nvim-highlight-colors` | Color previews for hex, RGB, named colors, and Tailwind classes |
 
 ---
 
