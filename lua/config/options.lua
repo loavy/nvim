@@ -36,8 +36,8 @@ local options = {
   smarttab = false,
 
   -- Disable auto-indentation
-  autoindent = false,
-  smartindent = false,
+  autoindent = true,
+  smartindent = true,
   cindent = false,
   copyindent = false,
   preserveindent = false,

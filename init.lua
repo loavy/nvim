@@ -37,6 +37,12 @@ Plug("lewis6991/gitsigns.nvim")
 -- Harpoon
 Plug("ThePrimeagen/harpoon", { ["branch"] = "harpoon2" })
 
+-- Formatting
+Plug("stevearc/conform.nvim")
+
+-- Auto pairs
+Plug("windwp/nvim-autopairs")
+
 -- LSP
 Plug("neovim/nvim-lspconfig")
 Plug("williamboman/mason.nvim")
@@ -58,6 +64,8 @@ require("config.options")
 require("config.mappings")
 require("config.autocmd")
 
+require("plugins.conform")
+require("plugins.autopairs")
 require("plugins.fzf-lua")
 require("plugins.treesitter")
 require("plugins.gitsigns")

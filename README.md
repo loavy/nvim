@@ -83,13 +83,11 @@ Keymaps:
 | Keymap | Action |
 |---|---|
 | `<leader>a` | Add file to Harpoon |
-| `<leader>e` | Open Harpoon menu |
-| `<leader>1` | Go to Harpoon file 1 |
-| `<leader>2` | Go to Harpoon file 2 |
-| `<leader>3` | Go to Harpoon file 3 |
-| `<leader>4` | Go to Harpoon file 4 |
-| `<leader>n` | Next Harpoon file |
-| `<leader>p` | Previous Harpoon file |
+| `<leader>h` | Open Harpoon menu |
+| `<C-h>` | Go to Harpoon file 1 |
+| `<C-n>` | Go to Harpoon file 2 |
+| `<C-e>` | Go to Harpoon file 3 |
+| `<C-i>` | Go to Harpoon file 4 |
 
 ### Color Preview
 
