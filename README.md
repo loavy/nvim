@@ -206,13 +206,13 @@ mv ~/.config/nvim ~/.config/nvim.bak
 Clone this repository:
 
 ```bash
-git clone git@github.com:PinkMath/Nvim-config.git ~/.config/nvim
+git clone git@github.com:loavy/Nvim-config.git ~/.config/nvim
 ```
 
 Or with HTTPS:
 
 ```bash
-git clone https://github.com/PinkMath/Nvim-config.git ~/.config/nvim
+git clone https://github.com/loavy/Nvim-config.git ~/.config/nvim
 ```
 
 Open Neovim:
